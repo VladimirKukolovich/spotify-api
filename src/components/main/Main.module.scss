@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.outletWrapper {
+  position: relative;
+  min-height: calc(100vh - 65px);
+  width: 78vw;
+}

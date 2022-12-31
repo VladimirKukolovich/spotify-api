@@ -1,0 +1,26 @@
+.textButton {
+    width: fit-content;
+    color: rgb(189, 199, 199);
+    font-size: medium;
+    border: none;
+    background: none;
+    text-align: start;
+    &:hover {
+        color: rgb(255, 255, 255);
+    }
+    @media (max-width: 600px) {
+        font-size: calc(1vw + .65em);
+    }
+}
+.active {
+    width: fit-content;
+    font-size: medium;
+    border: none;
+    background: none;
+    text-align: start;
+    color: rgb(255, 255, 255);
+    background: none;
+    @media (max-width: 600px) {
+        font-size: calc(1vw + .65em);
+    }
+}

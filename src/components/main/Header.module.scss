@@ -1,0 +1,39 @@
+.header {
+  // width: 78vw;
+  height: 65px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_buttons {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: calc(78vw - 205px);
+  @media (max-width: 400px) {
+    gap: .5rem;
+  }
+}
+.header_arrows {
+  display: flex;
+  gap: 1rem;
+}
+svg {
+  polyline {
+    stroke: rgb(189, 199, 199);
+  }
+  &:hover {
+    polyline {
+      stroke: #fff;
+    }
+  }
+  cursor: pointer;
+}
+.nextButton {
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
