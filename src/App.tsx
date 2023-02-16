@@ -1,3 +1,4 @@
+import Home from 'components/pages/home/Home';
 import Profile from 'components/pages/profile/Profile';
 import Search from 'components/pages/search/Search';
 import Settings from 'components/pages/settings/Settings';
@@ -11,6 +12,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Main />}>
+        <Route path="/" element={<Home />} />
         <Route path="profile" element={<Profile />} />
         <Route path="settings" element={<Settings />} />
         <Route path="search" element={<Search />} />

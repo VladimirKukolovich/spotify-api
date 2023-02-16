@@ -23,7 +23,7 @@ export const text = {
       ru: 'Настройки',
     },
     logOut: {
-      en: 'Log out',
+      en: 'Logout',
       ru: 'Выйти',
     },
     user: {

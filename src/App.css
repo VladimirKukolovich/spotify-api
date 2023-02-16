@@ -43,3 +43,10 @@
   position: absolute;
   left: 22vw;
 }
+.container {
+  display: flex;
+  width: 78vw;
+  height: calc(100% - 65px);
+  justify-content: center;
+  align-items: center;
+}
